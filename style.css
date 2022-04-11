@@ -1,0 +1,37 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+.calculatorbody{
+    margin:150px 500px;
+}
+table{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px , 10px , 50px;
+    border: 2px solid;
+}
+td{
+    text-align: center;
+    border: 0.5px solid black;
+}
+
+input[type="button"]{
+    width:90px ;
+    height: 80px;
+    color: black;
+    background-color: bisque;
+    cursor: pointer;
+    outline: none !important;
+    border: none !important;
+
+}
+input[type="text"]{
+    width:340px ;
+    height: 80px;
+    color: black;
+    background-color: white;
+   text-align: right;
+    outline: none;
+    border: none !important;
+}
